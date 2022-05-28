@@ -22,7 +22,7 @@
         </div>
     </nav>
     <main class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
-        <h1 class="mt-3 py-4 mx-auto max-w-md font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 sm:text-lg md:mt-5 md:text-3xl md:max-w-3xl"><?= $title ?></h1> 
+        <h1 class="mt-3 py-4 mx-auto max-w-md font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 sm:text-lg md:mt-5 md:text-4xl md:max-w-3xl"><?= $title ?></h1> 
         <?= $content ?>
     </main>
 

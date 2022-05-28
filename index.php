@@ -1,4 +1,6 @@
-<?php ob_start() ?>    
+<?php 
+ob_start();
+?>    
       <!-- Hero -->
       <div class="text-center">
         <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
@@ -23,9 +25,10 @@
                 <table class="min-w-full divide-y divide-gray-200">
                 <thead class="bg-gray-50">
                     <tr>
-                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nom</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Image</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nom du livre</th>
                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Auteur</th>
-                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Ville</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Pages</th>
                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
                     <th scope="col" class="relative px-6 py-3">
                         <span class="sr-only">Editer</span>
@@ -34,30 +37,15 @@
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
                     <tr>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">La peste</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Albert Camus</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">jParis</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Admin</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                            <a href="#" class="text-indigo-600 hover:text-indigo-900">Editer</a>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <img class="inline-block h-14 w-14 rounded-md" src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="La peste">
                         </td>
-                    </tr>
-                    <tr>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">La peste</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Albert Camus</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">jParis</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Admin</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                            <a href="#" class="text-indigo-600 hover:text-indigo-900">Editer</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">La peste</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Albert Camus</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">jParis</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Admin</td>
-                        <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                            <a href="#" class="text-indigo-600 hover:text-indigo-900">Editer</a>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-500">La peste</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-500">Albert Camus</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-500">265</td>
+                        <td class="px-6 py-8 flex space-x-4 items-center text-sm font-medium">
+                            <a href="#" class="text-yellow-600 hover:text-yellow-900">Editer</a>
+                            <a href="#" class="text-red-600 hover:text-red-900">Supprimer</a>
                         </td>
                     </tr>
                 </tbody>
